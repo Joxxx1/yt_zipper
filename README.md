@@ -49,6 +49,9 @@ python enhanced_downloader.py "视频链接"
 ### 配置文件
 - `requirements.txt` - Python依赖包
 - `cookies.txt` - YouTube cookies文件（需要用户提供）
+- `cookies_example.txt` - cookies文件示例
+- `get_cookies.py` - 自动获取cookies脚本
+- `COOKIES_SETUP_GUIDE.md` - cookies设置指南
 - `LICENSE` - 开源许可证
 
 ### 独立模块
@@ -56,10 +59,17 @@ python enhanced_downloader.py "视频链接"
 
 ## 🔧 使用说明
 
-1. **准备cookies文件**：将YouTube的cookies导出为`cookies.txt`格式
+1. **准备cookies文件**：
+   - 运行 `python get_cookies.py` 自动获取cookies
+   - 或参考 `COOKIES_SETUP_GUIDE.md` 手动获取
+   - 确保cookies.txt文件在项目根目录
+
 2. **安装依赖**：运行`pip install -r requirements.txt`
+
 3. **启动程序**：运行`python quick_start.py`
+
 4. **输入链接**：粘贴YouTube视频链接
+
 5. **开始下载**：程序会自动下载最高质量的视频
 
 ## 🎯 支持的格式

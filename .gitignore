@@ -122,6 +122,7 @@ media_files/
 *.m4a
 *.mp3
 cookies.txt
+cookies_*.txt
 trial.json
 license.json
 activation.json
